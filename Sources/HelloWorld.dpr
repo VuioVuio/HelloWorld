@@ -6,7 +6,13 @@ program HelloWorld;
 uses
   System.SysUtils;
 
+procedure Hello;
 begin
-  writeln('Delphi, hello world');
+  writeln('Hello, welcome to Delphi');
+end;
+
+begin
+  writeln('Hello world');
+  Hello;
   readln
 end.
